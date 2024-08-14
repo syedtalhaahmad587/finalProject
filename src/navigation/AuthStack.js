@@ -43,11 +43,17 @@ const AuthStack = () => {
       <Stack.Screen name="Feed back" component={Feedback} />
       <Stack.Screen name="Settings" component={ChatScreen} />
       <Stack.Screen name="AddHome" component={ClaimHome} />
-      <Stack.Screen name="ClaimHome" component={AddHome} />
-      <Stack.Screen name="VerifyAddressScreen" component={VerifyAddressScreen} />
+      <Stack.Screen name="Claim Home" component={AddHome}  options={{ 
+    headerShown: true, // Ensure the header is shown
+    headerTitleAlign: 'center' // Center the title
+  }} />
+      <Stack.Screen name="VerifyAddressScreen" component={VerifyAddressScreen} options={{ headerShown: false }} />
       <Stack.Screen name="Privacy Statments" component={PrivacyStatments} />
       <Stack.Screen name="About Screen" component={AboutScreen} />
-      <Stack.Screen name="HomeInformation" component={HomeInformation} />
+      <Stack.Screen name="Home Information" component={HomeInformation}  options={{ 
+    headerShown: true, // Ensure the header is shown
+    headerTitleAlign: 'center' // Center the title
+  }}  />
       <Stack.Screen name="Request User Registration" component={RegistrationScreen} options={{ headerShown: true }} />
       {/* <Stack.Screen name="Login" component={LoginScreen} /> */}
     </Stack.Navigator>

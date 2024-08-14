@@ -243,7 +243,7 @@ const CustomDrawer = (props) => {
             <Ionicons name="settings-outline" size={20} color="#333" />
             <Text style={styles.drawerLabel}>Settings</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.drawerItem} onPress={() => navigation.navigate('ClaimHome')}>
+          <TouchableOpacity style={styles.drawerItem} onPress={() => navigation.navigate('Claim Home')}>
             <Ionicons name="settings-outline" size={20} color="#333" />
             <Text style={styles.drawerLabel}>ClaimHome</Text>
           </TouchableOpacity>
@@ -257,7 +257,7 @@ const CustomDrawer = (props) => {
             <Text style={styles.drawerLabel}>AddHome</Text>
             
           </TouchableOpacity>
-          <TouchableOpacity style={styles.drawerItem} onPress={() => navigation.navigate('HomeInformation')}>
+          <TouchableOpacity style={styles.drawerItem} onPress={() => navigation.navigate('Home Information')}>
             <Ionicons name="information-circle-outline" size={20} color="#333" />
             <Text style={styles.drawerLabel}>HomeInformation</Text>
             

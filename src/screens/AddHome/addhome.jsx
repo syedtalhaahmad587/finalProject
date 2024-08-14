@@ -81,11 +81,10 @@ const AddHome = () => {
   returnKeyType={'search'}
   fetchDetails={true}
   onPress={(data, details = null) => {
-    // Check if details are available
     if (details && details.formatted_address) {
-      setAddress(details.formatted_address); // Set the full formatted address
+      setAddress(details.formatted_address);
     }
-    setInputValue(data.description); // Set the input value to the description of the selected place
+    setInputValue(data.description);
   }}
   query={{
     key: 'AIzaSyCdhnfE_WNhWnJsOjA2hDzXKF1DbJKiKMU',
@@ -134,7 +133,7 @@ const AddHome = () => {
           )}
         </View>
 
-        {address && (
+        {inputValue && (
           <>
             <View style={styles.headAddress}>
               <Text style={styles.headinneraddress}>YOUR ADDRESS</Text>

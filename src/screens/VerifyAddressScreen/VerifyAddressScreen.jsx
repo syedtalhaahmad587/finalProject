@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, StatusBar } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useNavigation } from '@react-navigation/native';
+import BrowseHomes from "../../SVG/BrowseHomes";
 
 export default function VerifyAddressScreen() {
     const navigation = useNavigation();
@@ -14,7 +15,11 @@ export default function VerifyAddressScreen() {
         <View style={styles.container}>
             <StatusBar barStyle="light-content" />
             <View style={styles.content}>
-                <Icon name="location-on" size={50} color="#FFFFFF" />
+                {/* <Icon name="location-on" size={50} color="#FFFFFF" /> */}
+                <View style={styles.BrowseColor} >
+                <BrowseHomes color="#00544d" />
+                </View>
+                {/* <BrowseHomes /> */}
                 <Text style={styles.message}>
                     Sit tight, we’re verifying your address. This will only take a few minutes. We’ll notify you once it’s done.
                 </Text>
@@ -65,4 +70,7 @@ const styles = StyleSheet.create({
         fontFamily: Platform.OS === 'ios' ? 'Avenir' : 'sans-serif', // Font fallback for Android
         lineHeight: 20,
     },
+    BrowseColor: {
+          marginRight:30
+    }
 });
