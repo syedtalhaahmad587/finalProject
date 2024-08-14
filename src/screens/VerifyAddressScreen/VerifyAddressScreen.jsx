@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: '#FFFFFF',
         marginTop: 20,
+        fontFamily:"Avenir",
         fontSize: 15,
         fontWeight: "400",
         fontFamily: Platform.OS === 'ios' ? 'Avenir' : 'sans-serif', // Font fallback for Android
@@ -67,7 +68,7 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         textAlign: 'center',
         fontWeight: "800",
-        fontFamily: Platform.OS === 'ios' ? 'Avenir' : 'sans-serif', // Font fallback for Android
+        fontFamily: Platform.OS === 'ios' ? 'Avenir' : 'Avenir', // Font fallback for Android
         lineHeight: 20,
     },
     BrowseColor: {
