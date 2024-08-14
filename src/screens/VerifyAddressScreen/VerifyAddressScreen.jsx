@@ -8,7 +8,7 @@ export default function VerifyAddressScreen() {
     const navigation = useNavigation();
 
     const HandleBrowseHomes = () => {
-        navigation.navigate('HomeInformation');
+        navigation.navigate('Home Information');
     };
 
     return (
