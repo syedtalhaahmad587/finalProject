@@ -16,7 +16,7 @@
     "@react-native-picker/picker": "^2.7.7",
     "@react-navigation/drawer": "^6.6.15",
     "@react-navigation/stack": "^6.3.29",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "i18next": "^23.11.5",
     "install": "^0.13.0",
     "moment": "^2.30.1",
