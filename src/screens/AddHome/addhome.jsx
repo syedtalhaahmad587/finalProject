@@ -204,6 +204,7 @@ const styles = StyleSheet.create({
     // width: '90%',
     backgroundColor: '#FFFFFF',
     marginTop: 10,
+    marginHorizontal:12,
     // alignSelf: 'center',
   },
   iconContainer: {
@@ -211,7 +212,7 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     padding: 6,
     marginTop:8,
-    marginRight: 10,
+    marginRight: 0,
     height:30
   },
   input: {
