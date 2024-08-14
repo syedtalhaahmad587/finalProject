@@ -1,0 +1,13 @@
+{
+    "Urls": {
+      "Url": "http://18.226.185.31:8081/"
+    },
+    "TimeEffect": {
+      "Refresh_Time_Notify": "1000",
+      "Refresh_Time_Dashboad": "10000"
+    },
+    "ReleaseDate": {
+      "date": "10-6-2024",
+      "version": "2.4.1"
+    }
+  }
