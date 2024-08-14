@@ -28,9 +28,9 @@ const AuthStack = () => {
   return (
     
     <Stack.Navigator >
-      <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="HomeScreen" component={DrawerNavigator} options={{ headerShown: false }} />
       <Stack.Screen name="SelectDropdown" component={SelectDropdown} options={{ headerShown: false }} />
-      <Stack.Screen name="DrawerNavigator" component={DrawerNavigator} options={{ headerShown: false }} />
+      <Stack.Screen name="DrawerNavigator" component={HomeScreen} options={{ headerShown: false }} />
       <Stack.Screen name="EmergencyEquation" component={EmergencyEquationComponent} />
       <Stack.Screen name="DoorManagement" component={DoorManagement} />
       <Stack.Screen name="AccessDeniedByDevice" component={DeniedByDeviceScreen} />
